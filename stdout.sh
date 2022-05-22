@@ -6,6 +6,5 @@ from datetime import datetime
 
 while True:
   date = datetime.now().strftime("%m/%d/%y %H:%M:%S")
-  print(f"\r{date}", end="")
+  print(date, end="\r")
   time.sleep(1.0)
-
